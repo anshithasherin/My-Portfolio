@@ -1,0 +1,235 @@
+*{
+    margin: 0px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.header{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(138, 121, 102) ;
+}
+.logoicon{
+    height: 150px;
+    width: 150px;
+}
+
+#home{
+    background-color: rgb(206, 190, 169);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-size: 30px;
+}
+#home>h1{
+    font-weight: bold;
+}
+#username{
+    color: blueviolet;
+}
+.imagecontainer{
+    position: relative;
+}
+#img1{
+    width: 100%;
+}
+.desc{
+    padding: 50px; 
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.desc>a{
+    text-decoration: none;
+    background: black;
+    color: white;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    top: 550px;
+}
+#about{
+    padding: 30px;
+    font-size: 30px;
+    /* background:  rgb(206, 190, 169); */
+}
+#about>h1{
+    margin-top: 30px;
+    margin-bottom: 25px;
+    margin-left: 40%;
+    font-weight: bolder;
+
+}
+.aboutcontainer{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.aboutinfo{ 
+    font-size: 18px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    text-align: justify;
+    line-height: 35px;
+}
+#img2{
+    width: 100%;
+    /* height: 400px;
+    padding-left: 10px;
+    padding: 10px; */
+}
+.navelinks{
+    padding: 40px;
+}
+.navelinks>a{
+    margin-right: 40px;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    transition: font-size 1s;
+}
+.navelinks>a:hover{
+    font-size: 45px;
+}
+#skills{
+    /* background:  rgb(206, 190, 169); */
+
+    padding: 20px;
+    font-size: 30px;
+}
+#skills>h1{
+    margin-top: 30px;
+    margin-bottom: 25px;
+    margin-left: 40%;
+    font-weight: bolder;
+    
+}
+.skillcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+}
+.laguages{
+    border: 2px solid rgb(92, 67, 36);
+    height: 270px;
+    width: 200px;
+    border-radius: 20px;
+    align-content: center;
+    /* background:  rgb(206, 190, 169); */
+
+}
+.laguages>h4{
+    text-decoration: underline black;
+    
+}
+.laguages>li{
+    font-weight: lighter;
+    
+}
+.frontend{
+    border: 2px solid rgb(92, 67, 36);
+    height: 270px;
+    width: 250px;
+    border-radius: 20px;
+    align-content: center;
+    /* background:  rgb(206, 190, 169); */
+}
+.frontend>h4{
+    text-decoration: underline black;
+    
+}
+.frontend>li{
+    font-weight: lighter;
+}
+.backend{
+    border: 2px solid rgb(92, 67, 36);
+    height: 270px;
+    width: 250px;
+    border-radius: 20px;
+    align-content: center;
+    /* background:  rgb(206, 190, 169); */
+}
+.backend>h4{
+    text-decoration: underline black;
+}
+.backend>li{
+    font-weight: lighter;
+
+}
+#condact{
+    padding: 30px;
+    font-size: 30px;
+    background: rgb(138, 121, 102);
+}
+#condact>h1{
+    margin-top: 40px;
+    margin-bottom: 25px;
+    margin-left: 35%;
+    font-weight: bolder;
+    
+
+}
+.condactcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+.conctno{
+    padding: 50px;
+    /* border: 2px solid black;
+    border-radius: 8px; */
+}
+.mobile{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 20px;
+    font-weight: lighter;
+}
+.email{
+    padding: 50px;
+    /* border: 2px solid black;
+    border-radius: 8px; */
+}
+.emailid{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 20px;
+    font-weight: lighter;
+}
+.linkedin{
+    padding: 50px;
+    /* border: 2px solid black;
+    border-radius: 8px; */
+}
+.lnkdnlink{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 20px;
+    left: -11px;
+    font-weight: lighter;
+    
+}
+.conctno:hover{
+    background-color: #005477;
+}
+.email:hover{
+    background-color: #005477;
+}
+
+.linkedin:hover{
+    background-color: #005477;
+}
